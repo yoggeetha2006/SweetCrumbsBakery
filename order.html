@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order - Sweet Crumbs Bakery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Sweet Crumbs Bakery</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="order.html">Order</a>
+    </nav>
+  </header>
+
+  <section class="order-form">
+    <h2>Place Your Order!</h2>
+    <form>
+      <label>Name:</label>
+      <input type="text" name="name" required><br>
+
+      <label>Phone Number:</label>
+      <input type="text" name="phone" required><br>
+
+      <label>Email (optional):</label>
+      <input type="email" name="email"><br>
+
+      <label>Item Ordered:</label>
+      <select name="item">
+        <option>Strawberry Cake - RM 12</option>
+        <option>Almond Cookies - RM 6</option>
+      </select><br>
+
+      <label>Delivery / Pickup:</label>
+      <input type="text" name="delivery"><br>
+
+      <label>Address (if delivery):</label>
+      <input type="text" name="address"><br>
+
+      <label>Date Needed:</label>
+      <input type="date" name="date"><br>
+
+      <button type="submit">Confirm Order</button>
+    </form>
+    <p>After submitting, we will contact you to confirm your order. Thank you!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Sweet Crumbs Bakery. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
