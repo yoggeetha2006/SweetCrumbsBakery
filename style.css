@@ -1,48 +1,25 @@
-.body-style {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #fff8f0;
-  color: #333;
-}
+<body class="body-style">
+  <header class="header-style">
+    <h1>SweetCrumbs Bakery</h1>
+    <nav>
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="menu.html" class="nav-link">Menu</a>
+      <a href="order.html" class="nav-link">Order</a>
+    </nav>
+  </header>
 
-.header-style {
-  background: #d2691e;
-  color: white;
-  padding: 15px;
-  text-align: center;
-}
+  <section class="hero-section">
+    <h2>Freshly Baked Happiness</h2>
+  </section>
 
-.nav-link {
-  margin: 0 10px;
-  color: white;
-  text-decoration: none;
-}
+  <section class="menu-section">
+    <div class="item-card">
+      <img src="images/cake.jpg" alt="Cake">
+      <p>Chocolate Cake</p>
+    </div>
+  </section>
 
-.nav-link:hover {
-  text-decoration: underline;
-}
-
-.hero-section, .about-section, .menu-section, .order-form-section {
-  padding: 20px;
-  text-align: center;
-}
-
-.item-card {
-  display: inline-block;
-  margin: 15px;
-}
-
-.item-card img {
-  width: 150px;
-  height: auto;
-  border-radius: 8px;
-}
-
-.footer-style {
-  background: #d2691e;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  margin-top: 20px;
-}
+  <footer class="footer-style">
+    <p>&copy; 2026 SweetCrumbs Bakery</p>
+  </footer>
+</body>
